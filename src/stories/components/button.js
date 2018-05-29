@@ -27,6 +27,6 @@ const Button = styled.button`
 
 export default class extends Component {
  render() {
-   return <Button onClick={this.props.onClick} onDblClick={this.props.onDblClick}>{this.props.children}</Button>
+   return <Button>{this.props.children}</Button>
  }
 }
